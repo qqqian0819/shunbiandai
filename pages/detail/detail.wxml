@@ -1,0 +1,52 @@
+<!-- *****************************
+     *******detail.wxml********
+     *******作者：姚星如*********
+     *****修改时间：20.7/5/18***** -->
+
+<view class="container">
+	<view class="father">
+		<view class="son1">
+			<view class="box1">
+				<image style="width: 100rpx; height: 100rpx; border-radius: 6rpx;" mode="scaleToFill" src="../../images/01.jpg" binderror="" bindload=""></image>
+			</view>
+			<view class="box2">
+				<text class="username">用户名</text>
+				<view>
+					<image style="width: 30rpx;height: 30rpx;" mode="scaleToFill" src="../../images/02.png" binderror="" bindload=""></image>
+					<image style="width: 30rpx;height: 30rpx;" mode="scaleToFill" src="../../images/03.png" binderror="" bindload=""></image>
+					<text class="address">雅风苑</text>
+				</view>
+			</view>
+			<view class="box3">
+				<text class="time">10分钟前</text>
+				<view>帮</view>
+			</view>					
+		</view>
+		<view class="son2">
+			<view class="son2_box1">
+				<image style="width: 40rpx; height: 40rpx;" mode="scaleToFill" src="../../images/06.png" binderror="" bindload=""></image>
+				<text>需求:三食堂三楼咖喱饭不加酸菜</text>
+			</view>
+			<view class="son2_box2">
+				<image style="width: 40rpx; height: 40rpx;" mode="scaleToFill" src="../../images/05.png" binderror="" bindload=""></image>
+				<text>目的地：雅风苑B栋425</text>
+			</view>
+			<view class="son2_box3">
+				此处为进度条
+			</view>
+		</view>
+		<view class="son3">
+			<view class="son3_box1">谁看过我</view>
+			<view class="son3_box2">
+				<image style="width: 100rpx; height: 100rpx; border-radius: 6rpx;" mode="scaleToFill" src="../../images/01.jpg" binderror="" bindload=""></image>
+				<image style="width: 100rpx; height: 100rpx; border-radius: 6rpx;" mode="scaleToFill" src="../../images/01.jpg" binderror="" bindload=""></image>	
+			</view>	
+		</view>
+		<view class="son4">
+			<view class="son4_box1">谁帮我带</view>
+			<view class="son4_box2">
+				<image style="width: 100rpx; height: 100rpx; border-radius: 6rpx;" mode="scaleToFill" src="../../images/01.jpg" binderror="" bindload=""></image>
+			</view>	
+		</view>
+	</view>
+</view>

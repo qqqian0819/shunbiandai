@@ -1,0 +1,20 @@
+{
+  "pages":[
+    
+    
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/login/login",
+    
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/detail/detail",
+    "pages/My/My"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "注册页面",
+    "navigationBarTextStyle":"white"
+  }
+}

@@ -1,0 +1,149 @@
+/**detail.wxss**/
+/* 父盒子 */
+.father {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 1100rpx;
+	flex: 1;
+}
+/* 儿子 */
+.son1 {
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	padding: 40rpx 20rpx 0rpx 20rpx;
+}
+/* 孙子*/
+.box1 {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+}
+.box2 {
+	flex: 3;
+}
+/* 用户名 */
+.username {
+	font-size: 30rpx;
+	color: #555;
+}
+/* 寝室地址*/
+.address {
+	font-size: 24rpx;
+	color: #888;
+}
+.box3 {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+/* 发布时间 */
+.time {
+	font-size: 28rpx;
+	color: #777;
+}
+/* 帮 */
+.box3 view {
+	margin-top: 14rpx;
+	padding: 2rpx;
+	color: #fff;
+	font-size: 30rpx;
+	background-color: #0cf;
+}
+/* 二儿子 */
+.son2 {
+	flex: 3;
+	padding: 20rpx;
+	display: flex;
+	flex-direction: column;
+	border-bottom: 14rpx solid #B2BABB;
+	border-top: 14rpx solid #B2BABB; 
+}
+/* 需求 */
+.son2_box1 {
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	align-items: center;
+	font-size: 30rpx;
+	color: #555;
+}
+/* 需求小图标 */
+.son2_box1 image {
+	padding-right: 10rpx;
+}
+/* 目的地 */
+.son2_box2 {
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	align-items: center;
+	font-size: 30rpx;
+	color: #555;
+}
+/* 目的地小图标 */
+.son2_box2 image {
+	padding-right: 10rpx;
+}
+/* 进度条 */
+.son2_box3 {
+	display: flex;
+	flex: 3;
+}
+/* 三儿子 */
+.son3 {
+	flex: 2;
+	border-bottom: 14rpx solid #B2BABB;
+	display: flex;
+	flex-direction: column;
+}
+/* 谁看过我-文字框 */
+.son3_box1 {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	margin-top: 16rpx;
+	font-size: 30rpx;
+	color: #555;
+}
+/* 谁看过我-头像框 */
+.son3_box2 {
+	display: flex;
+	flex: 4;
+	margin: 0 20rpx;
+	justify-content: flex-start;
+	align-items: center;
+	border-top: 4rpx solid #B2BABB;
+}
+.son3_box2 image {
+	margin-right: 10rpx;
+}
+/* 四儿子 */
+.son4 {
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+}
+/* 谁帮我带—文字框 */
+.son4_box1 {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	margin-top: 16rpx;
+	font-size: 30rpx;
+	color: #555;
+}
+/* 谁帮我带—头像框 */
+.son4_box2 {
+	display: flex;
+	flex: 4;
+	margin: 0 20rpx;
+	justify-content: center;
+	align-items: center;
+	border-top: 4rpx solid #B2BABB;
+	border-bottom: 14rpx solid #B2BABB;
+}
